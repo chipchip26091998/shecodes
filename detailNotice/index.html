@@ -55,12 +55,13 @@
 
             
             var pointA = new google.maps.LatLng(position.coords.latitude, position.coords.longitude),
-            pointB = new google.maps.LatLng(21.006871999999998, 105.81859639999999),
+            pointB = new google.maps.LatLng(21.006871999999998, 105.81859639999999);
 
             myOptions = {
                 zoom: 17,
                 center: pointA
             },
+            
             map = new google.maps.Map(document.getElementById('map-canvas'), myOptions),
           
             directionsService = new google.maps.DirectionsService,
